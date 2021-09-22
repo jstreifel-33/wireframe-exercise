@@ -1,4 +1,8 @@
+/* IMPORT CSS RESET */
+
 @import url(reset.css);
+
+/* HEADER STYLES */
 
 header, main{
   width: 1000px;
@@ -31,6 +35,8 @@ nav p{
 
 }
 
+/* MAIN AND IMG STYLES */
+
 img{
   display:inline-block;
   margin: 15px;
@@ -45,12 +51,20 @@ div{
 article{
   box-sizing: border-box;
   display:inline-block;
+  vertical-align: bottom;
   width: 450px;
   height:350px;
   margin:15px;
 }
 
+article h2{
+  font-weight: bold;
+  font-size: large;
+}
+
 article p{
-  max-height: 300px;
+  display:inline-block;
+  max-height: 250px;
   overflow: scroll;
+  margin:10px 0px
 }
